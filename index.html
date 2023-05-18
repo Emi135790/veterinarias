@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="icons/fontello.css">
+	<title>Veterinarias Aca</title>
+</head>
+<nav>
+   <div class="bottom">
+       <input type="checkbox" id="check">
+        <label class="check-btn" for="check"><i class="icon-menu"></i></label>
+        <img src="img/logoanimaleros.png" alt="">
+
+       <ul   class="menu">
+        <img src="img/logoanimaleros.png" alt="">
+           <li id="section"><a href="#">Inicio</a></li>
+           <li><a href="#" class="sub-menu">Veterinarias</a></li>
+           <li><a href="#">Nosotros</a></li>
+           <li><a href="login.html">Registrate</a></li>
+       </ul>
+   </div>
+</nav>
+
+<body>
+	<!-- ///////////////////////incio del main//////////////////////// -->
+
+
+	<main>
+		<div class="containercover" id="inicio">
+			<div class="cover">
+				<div class="text" >
+					<h1>El cuidado y bienestar de tus mascotas</h1>
+					<p>Encuentra todas las veterinarias de tu localidad a la palma de tu mano desde tu celular</p>
+				</div>
+				<div class="svg" >
+					<img src="img/logoprincipal.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+	</main>
+	<!--//////////////////////// incio del map y cards de vetrinarias/////////////////////// -->
+    <div class="con1">
+		<div class="filtros">
+			<input type="text"placeholder= "Buscar">
+		</div>
+		<div class="cont">
+		  <div class="map">  
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.688607421549!2d-99.80478009994489!3d16.799604349704836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca5bdf8442cfe1%3A0x8368fa5c9d2c7eaa!2sVeterinaria%20Colosio!5e0!3m2!1ses-419!2smx!4v1683347180572!5m2!1ses-419!2smx" width="1100" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+		  </div>
+		   <div class="cards">
+			  <div class="container"></div>
+		   </div>
+		   
+		  </div>
+	  </div>
+
+	   <div  id="map">
+
+	  </div> 
+	<!------------------------------------------------------------------Footer------------------------------------------------>
+		 <footer id="footer">
+			<div class="container-footer">
+				<div class="box-footer">
+					<div class="logo">
+						<img src="img/logoanimaleros.png" alt="">
+					</div>
+					<div class="terms">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum quaerat ipsa aut voluptate, facilis ipsum omnis vitae ipsam itaque
+							assumenda illo odit? Eaque omnis corporis distinctio officia,
+							doloremque rem!
+						</p>
+					</div>
+				</div>
+				<div class="box-footer">
+					<h2>Soluciones</h2>
+					<a href="#">App Desarrollo</a>
+					<a href="#">App Marketing</a>
+					<a href="#">Ios Desarrollo</a>
+					<a href="#">Android Desarrollo</a>
+				</div>
+
+				<div class="box-footer">
+					<h2>Compañia</h2>
+					<a href="#">Acerca de </a>
+					<a href="#">Trabajos</a>
+					<a href="#">Procesos</a>
+					<a href="#">Servicios</a>
+				</div>
+
+				<div class="box-footer">
+					<h2>Redes Socailes</h2>
+					<a href="#"><i class="fab icon-face"></i>Facebook</a>
+					<a href="#"><i class="fab icon-g"></i>Google</a>
+					<a href="#"><i class="fab icon-in"></i>Linkedin</a>
+					<a href="#"><i class="fab icon-mail"></i>Email</a>
+				</div>
+			</div>
+
+			<div class="box-copyright">
+				<hr>
+				<p>
+				Todos los derechos reservados 2021 <b>Emiliano Vergara</b>
+				</p>
+			</div>
+		</footer> 
+
+
+        <script src="script/script.js"></script> 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrRVEuq7rMXooumzZ7svk6h1Z_gtszzXc&callback=iniciarMap"></script>
+</body>
+</html>
